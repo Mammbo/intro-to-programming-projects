@@ -1,0 +1,14 @@
+#define the formula to calculate sales tax 
+define function called sales_tax(total):
+    define variable tax = 0.06
+    define function that calculates sales_tax = total * tax 
+    return sales_tax
+# def the introduction to the program and giving the input to the user, after that the total after tax will be calculated by adding both the total and the sales_tax together, after that it is rounded and printed as the output
+define function main():
+    intro to code: print("Sales Tax Calculator\n")
+    variable that asks for input about the totaltotal = float(input("Enter total: "))
+    calvulates the total_after_tax = round(total + sales_tax(total), 2)
+    reuturn the value to the user print("Total after tax: ", total_after_tax)
+ #calles the function main()   
+if __name__ == "__main__":
+  call the actually function  main()
