@@ -1,0 +1,1 @@
+Write a program that converts a temperature in Fahrenheit to Celsius and displays the results. Include the pseudocode. Use best programming practices including comments and proper style, see PEP8Links to an external site..
