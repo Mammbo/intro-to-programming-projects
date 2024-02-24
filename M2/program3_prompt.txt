@@ -1,0 +1,6 @@
+Draw a house using a series of print statements.
+
+At a minimum, use the '|' (pipe symbol), '/' (slash), and '\' (back slash) symbols. 
+The house must include a door, a window, and a roof.
+Include pseudocode
+Use best programming practices

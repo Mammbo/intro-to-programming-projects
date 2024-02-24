@@ -4,8 +4,8 @@
 
 
 print("      __________________")
-print("     | Lockheed Martian|")
-print("     |__Head Quarters__|")
+print("     | Martian HQ      |")
+print("     |_________________|")
 print("     |")
 print("     |")
 print("     |")

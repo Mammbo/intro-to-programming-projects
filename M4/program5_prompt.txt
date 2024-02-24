@@ -1,0 +1,14 @@
+The program accepts an arbitrary number of temperature readings and will compute the lowest, the highest and the average temperature.
+
+The input is an arbitrary number of temperature readings.
+
+The output is the lowest, highest and average temperature.
+
+Use best programming practices including:
+
+naming conventions: descriptive names in accordance with the text and PEP8
+white space: for easier reading
+comments: useful and not excessive
+Include pseudocode: use the examples in the text for guidance
+
+Demonstrate the program in class and submit the source code and pseudocode for a grade.

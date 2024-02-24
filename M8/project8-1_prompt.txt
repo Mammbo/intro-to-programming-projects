@@ -1,0 +1,25 @@
+Project 8-1: Tip Calculator
+Add exception handling to a Tip Calculator program.
+Console
+Tip Calculator
+INPUT
+Cost of meal: ten
+Must be valid decimal number. Please try again.
+Cost of meal: -10
+Must be greater than 0. Please try again.
+Cost of meal: 52.31
+Tip percent: 17.5
+Must be valid integer. Please try again.
+Tip percent: 20
+OUTPUT
+Cost of meal: 52.31
+Tip percent: 20%
+Tip amount: 10.46
+Total amount: 62.77
+Specifications
+ The program should accept decimal entries like 52.31 and 15.5 for the cost of the meal.
+ The program should accept integer entries like 15, 20, and 25 for the tip percent.
+ The program should validate both user entries. That way, the user can’t crash the program by entering
+invalid data.
+ The program should only accept numbers that are greater than 0.
+ The program should round results to a maximum of two decimal places.

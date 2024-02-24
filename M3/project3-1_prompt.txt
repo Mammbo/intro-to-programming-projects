@@ -1,0 +1,40 @@
+Project 3-1: Letter Grade Converter
+Create a program that converts number grades to letter grades.
+
+Console
+Letter Grade Converter
+
+Enter numerical grade: 90
+Letter grade: A
+
+Continue? (y/n): y
+
+Enter numerical grade: 88
+Letter grade: A
+
+Continue? (y/n): y
+
+Enter numerical grade: 80
+Letter grade: B
+
+Continue? (y/n): y
+
+Enter numerical grade: 67
+Letter grade: C
+
+Continue? (y/n): y
+
+Enter numerical grade: 59
+Letter grade: F
+
+Continue? (y/n): n
+
+Bye!
+Specifications
+ The grading criteria is as follows:
+A 88-100
+B 80-87
+C 67-79
+D 60-66
+F <60
+ Assume that the user will enter valid integers for the grades.

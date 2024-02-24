@@ -1,0 +1,3 @@
+Write a program that converts US dollars to Euro, British Pounds, Japanese Yen, Chinese Yuan and Korean Won.
+
+Include the pseudocode and use best programming practices.
