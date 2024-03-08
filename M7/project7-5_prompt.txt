@@ -1,0 +1,29 @@
+Project 7-5: Email List Cleaner
+Create a program that reads a CSV file that contains a list of prospects for an email list, reformats the
+data, and writes the cleaned list to another file.
+Console
+Welcome to the Email List Cleaner
+Source list: prospects.csv
+Cleaned list: prospects_clean.csv
+Congratulations! Your list has been cleaned!
+The prospect.csv file
+FIRST_NAME,LAST_NAME,EMAIL
+james,butler,jbutler@gmail.com
+Josephine ,Darakjy,josephine_darakjy@darakjy.org
+ART,VENERE,ART@VENERE.ORG
+...
+The prospect_clean.csv file
+First_Name,Last_Name,email
+James,Butler,jbutler@gmail.com
+Josephine,Darakjy,josephine_darakjy@darakjy.org
+Art,Venere,art@venere.org
+...
+Specifications
+ Your instructor should provide a CSV file named prospects.csv that contains a list of prospects.
+ Your program should fix the formatting problems and write a file named prospects_clean.csv.
+ All names should use title case. To convert a string to title case, you can call the title() method from
+the string.
+ All email addresses should use lowercase. To convert a string to lowercase, you can call the lower()
+method from the string.
+ All extra spaces at the start or end of a string should be removed. To do that, you can call the strip()
+method from the string.
