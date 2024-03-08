@@ -1,0 +1,36 @@
+import the module csv
+
+define function csv_clean( with temp variables of inpath, outpath):
+
+#define the output path and set it to write
+    outfile = open(outpath, "w")
+    #Create Outpath header
+    outfile_header = "First_Name,Last_Name,email\n"
+
+    #write to the cleaned file
+    outfile.write(outfile_header)
+
+    #open original file 
+    with open(inpath, 'r') as infile: 
+
+        define variable that reades the input file and puts the spacing between the items to a , reader = csv.reader(infile, delimiter=",")
+        #loop through all lists and sort them via first last and emial and format them 
+        for row in reader:
+          first_name = row[0].title().strip()
+          last_name = row[1].title().strip()
+          email = row[2].lower().strip()
+          #write to cleaned file 
+          line = "{},{},{}\n".format(first_name, last_name, email)
+          outfile.write(line)
+
+   close the output file outfile.close()
+#welcome message 
+print("Welcome to the Email Cleaner")
+
+#asks for source list 
+inpath = input("Source List: ") 
+#asks for cleaned list
+outpath = input("Cleaned List: ")
+csv_clean(inpath, outpath)
+
+dsiplay message that the program is done print(f"Congratulations! Your list has been cleaned!: {outpath}")
