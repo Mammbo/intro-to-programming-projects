@@ -1,0 +1,38 @@
+Section 1: Create the Blackjack program
+Create a program that allows the user to play Blackjack against a computer dealer.
+Console
+BLACKJACK!
+Blackjack payout is 3:2
+Money: 100.0
+Bet amount: 10
+DEALER'S SHOW CARD:
+9 of Diamonds
+YOUR CARDS:
+5 of Hearts
+5 of Clubs
+Hit or stand? (h/s): h
+YOUR CARDS:
+5 of Hearts
+5 of Clubs
+7 of Diamonds
+Hit or stand? (h/s): s
+DEALER'S CARDS:
+9 of Diamonds
+Jack of Hearts
+YOUR POINTS: 17
+DEALER'S POINTS: 19
+Sorry. You lose.
+Money: 90.0
+Play again? (y/n): n
+Come back soon!
+Bye!
+Specifications
+ If necessary, learn the rules of Blackjack by researching it on the web. For this
+program:
+ If the player doesn’t bust by going over 21 points, the dealer must continue
+taking cards until the dealer has at least 17 points.
+ Don’t allow a player to “split” a hand or “double down.”
+ The program should accept integer or float entries for the bet amount.
+ Getting a blackjack pays out 3:2, which is 1.5 times the bet amount.
+ The program should round the blackjack payout to a maximum of two decimal
+places.

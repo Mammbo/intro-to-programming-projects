@@ -1,0 +1,40 @@
+Section 2: Improve the Blackjack program
+Use the skills you learned in section 2 to improve the Blackjack program. This should
+improve the appearance of the console and the readability of the code.
+Console
+BLACKJACK!
+Blackjack payout is 3:2
+Start time: 11:43:03 AM
+Money: $110.00
+Bet amount: 10
+DEALER'S SHOW CARD:
+6 of Clubs
+YOUR CARDS:
+9 of Clubs
+Jack of Clubs
+Hit or stand? (h/s): s
+DEALER'S CARDS:
+6 of Clubs
+Queen of Hearts
+Queen of Diamonds
+YOUR POINTS: 19
+DEALER'S POINTS: 26
+Yay! The dealer busted. You win!
+Money: $120.00
+Play again? (y/n): n
+Stop time: 11:43:20 AM
+Elapsed time: 00:00:16
+Come back soon!
+Bye!
+Specifications
+ Use the locale module to display the amount of money in the format for your current
+locale.
+ Make sure the program doesn’t yield incorrect money amounts due to floating-point
+errors.
+ When the program starts, display the start time at the top of the console using the 12-
+hour format and include hours, minutes, and seconds.
+ When the program ends, display the end time using the 12-hour format as well as the
+amount of time that elapsed while the program was running.
+ Use a dictionary to store the data for each card: rank, suit, and points. This shouldn’t
+change the functionality of the program, but it should make the code easier to read
+and understand.
